@@ -62,7 +62,7 @@ PRODUCT_PACKAGES += \
     bspcapability \
     camera.mofd_v1 \
     libshim_camera \
-    Snap
+    Camera2
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -82,16 +82,16 @@ PRODUCT_COPY_FILES += \
     device/asus/mofd-common/powervr.ini:system/etc/powervr.ini
 
 # Doze
-PRODUCT_PACKAGES += \
-   ZenfoneDoze
+#PRODUCT_PACKAGES += \
+#   ZenfoneDoze
 
 # Factory reset protection
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.frp.pst=/dev/block/by-name/persistent
 
 # Flip Cover App
-PRODUCT_PACKAGES += \
-    FlipFlap
+#PRODUCT_PACKAGES += \
+#    FlipFlap
 
 # GPS
 PRODUCT_COPY_FILES += \
